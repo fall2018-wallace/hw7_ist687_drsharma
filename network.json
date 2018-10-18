@@ -120,6 +120,16 @@
             ],
             "source": "state_center.R",
             "target": "state_north_east.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ne_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "state_north_east.R",
+            "target": "ne_murder.png"
         }
     ],
     "nodes": [
@@ -177,6 +187,6 @@
             "name": "ne_pop.png"
         }
     ],
-    "updated_at": "2018-10-18 06:13:50",
+    "updated_at": "2018-10-18 06:14:09",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
