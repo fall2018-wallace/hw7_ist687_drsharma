@@ -1,4 +1,5 @@
 
+#Storing USArrests into a new variable "arrests"
 arrests <- (USArrests)
 arrests <- cbind(rownames(arrests),arrests)
 colnames(arrests) <- c("stateName")
