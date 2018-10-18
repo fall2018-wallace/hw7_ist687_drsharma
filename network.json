@@ -87,6 +87,17 @@
             ],
             "source": "Population.R",
             "target": "Population_Plotting.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "murder",
+                    "output": "murder",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "state_north_east.R"
         }
     ],
     "nodes": [
@@ -136,6 +147,6 @@
             "name": "state_north_east.R"
         }
     ],
-    "updated_at": "2018-10-18 06:06:28",
+    "updated_at": "2018-10-18 06:07:52",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
