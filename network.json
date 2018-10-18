@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "census",
                     "type": "csv"
                 }
@@ -30,12 +20,11 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
-            "name": "data.csv"
+            "assigned_to": "drsharma",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:22:39",
+    "updated_at": "2018-10-18 05:25:37",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
