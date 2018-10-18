@@ -1,4 +1,5 @@
 
+#Using the libraries ggplot2 and ggmap to visualize the data
 library(ggplot2)
 library(ggmap)
 
