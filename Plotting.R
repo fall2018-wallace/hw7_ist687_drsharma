@@ -8,7 +8,6 @@ state.name
 merged_data$area= state.area
 
 statecenter= data.frame(state.center)
-View(statecenter)
 merged_data$latitude=statecenter$y
 merged_data$longitude=statecenter$x
 
