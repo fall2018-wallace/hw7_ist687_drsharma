@@ -34,17 +34,6 @@
                 }
             ],
             "source": "Merge.R",
-            "target": "Plotting.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "merged_data",
-                    "output": "merged_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Merge.R",
             "target": "state_center.R"
         }
     ],
@@ -64,16 +53,10 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "drsharma",
-            "desc": "",
-            "name": "Plotting.R",
-            "task_status": "in progress"
-        },
-        {
             "desc": "",
             "name": "state_center.R"
         }
     ],
-    "updated_at": "2018-10-18 05:36:21",
+    "updated_at": "2018-10-18 05:36:28",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
