@@ -7,3 +7,4 @@ colnames(arrests) <- c("stateName")
 merged_data <- merge(merge, arrests)
 #View(merged_data)
 colnames(merged_data) <- c("stateName","population","popOver18","percentOver18","Murder","Assault","UrbanPop","Rape")
+merged_data
