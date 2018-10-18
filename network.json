@@ -81,7 +81,7 @@
         {
             "ports": [
                 {
-                    "output": "pop",
+                    "output": "pop_large",
                     "type": "png"
                 }
             ],
@@ -132,6 +132,6 @@
             "name": "Population_Plotting.png"
         }
     ],
-    "updated_at": "2018-10-18 06:03:52",
+    "updated_at": "2018-10-18 06:05:39",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
