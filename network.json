@@ -56,6 +56,16 @@
             ],
             "source": "Plotting.R",
             "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Murder",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Murder.png"
         }
     ],
     "nodes": [
@@ -92,6 +102,6 @@
             "name": "Murder.png"
         }
     ],
-    "updated_at": "2018-10-18 05:58:15",
+    "updated_at": "2018-10-18 05:58:46",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
