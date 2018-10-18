@@ -46,6 +46,100 @@
             ],
             "source": "state_center.R",
             "target": "Plotting.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Area",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "state_center.R",
+            "target": "Population.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_large",
+                    "type": "png"
+                }
+            ],
+            "source": "Population.R",
+            "target": "Population_Plotting.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "murder",
+                    "output": "murder",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "state_north_east.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "pop_large",
+                    "output": "pop_large",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Population.R",
+            "target": "state_north_east.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "state_center.R",
+            "target": "state_north_east.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ne_murder",
+                    "type": "png"
+                }
+            ],
+            "source": "state_north_east.R",
+            "target": "ne_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ne_pop",
+                    "type": "png"
+                }
+            ],
+            "source": "state_north_east.R",
+            "target": "ne_pop.png"
         }
     ],
     "nodes": [
@@ -70,10 +164,39 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Plotting.R"
+            "name": "Plotting.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Area.png"
+        },
+        {
+            "name": "Murder.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "Population.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Population_Plotting.png"
+        },
+        {
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "state_north_east.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "ne_murder.png"
+        },
+        {
+            "name": "ne_pop.png"
         }
     ],
-    "updated_at": "2018-10-18 05:39:18",
+    "updated_at": "2018-10-18 06:28:49",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
