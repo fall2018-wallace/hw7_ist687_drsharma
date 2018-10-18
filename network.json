@@ -18,7 +18,7 @@
             "ports": [
                 {
                     "input": "merge",
-                    "output": "cleaned",
+                    "output": "census",
                     "type": "r_obj"
                 }
             ],
@@ -42,6 +42,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:26:19",
+    "updated_at": "2018-10-18 05:27:55",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
