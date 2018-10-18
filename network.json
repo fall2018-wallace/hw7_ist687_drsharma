@@ -53,10 +53,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "state_center.R"
+            "name": "state_center.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Plotting.R"
         }
     ],
-    "updated_at": "2018-10-18 05:36:28",
+    "updated_at": "2018-10-18 05:38:12",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
