@@ -77,6 +77,16 @@
             ],
             "source": "state_center.R",
             "target": "Population.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop",
+                    "type": "png"
+                }
+            ],
+            "source": "Population.R",
+            "target": "Population_Plotting.png"
         }
     ],
     "nodes": [
@@ -122,6 +132,6 @@
             "name": "Population_Plotting.png"
         }
     ],
-    "updated_at": "2018-10-18 06:03:40",
+    "updated_at": "2018-10-18 06:03:52",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
