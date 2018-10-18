@@ -46,6 +46,16 @@
             ],
             "source": "state_center.R",
             "target": "Plotting.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Area",
+                    "type": "png"
+                }
+            ],
+            "source": "Plotting.R",
+            "target": "Area.png"
         }
     ],
     "nodes": [
@@ -79,6 +89,6 @@
             "name": "Area.png"
         }
     ],
-    "updated_at": "2018-10-18 05:57:22",
+    "updated_at": "2018-10-18 05:57:45",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
