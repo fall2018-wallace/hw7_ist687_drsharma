@@ -3,6 +3,7 @@
 library(ggplot2)
 library(ggmap)
 
+#Using map_data function
 US=map_data("state")
 
 pop_large=ggplot(merged_data, aes(map_id=stateName)) + geom_map(map=US, aes(fill=Murder),color="black")
