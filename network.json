@@ -70,10 +70,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "Plotting.R"
+            "name": "Plotting.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Area.png"
         }
     ],
-    "updated_at": "2018-10-18 05:39:18",
+    "updated_at": "2018-10-18 05:57:22",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
