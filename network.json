@@ -98,6 +98,17 @@
             ],
             "source": "Plotting.R",
             "target": "state_north_east.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "pop_large",
+                    "output": "pop_large",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Population.R",
+            "target": "state_north_east.R"
         }
     ],
     "nodes": [
@@ -143,10 +154,12 @@
             "name": "Population_Plotting.png"
         },
         {
+            "assigned_to": "drsharma",
             "desc": "",
-            "name": "state_north_east.R"
+            "name": "state_north_east.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 06:07:52",
+    "updated_at": "2018-10-18 06:10:40",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
