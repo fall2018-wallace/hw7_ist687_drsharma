@@ -60,7 +60,7 @@
         {
             "ports": [
                 {
-                    "output": "Murder",
+                    "output": "murder",
                     "type": "png"
                 }
             ],
@@ -102,6 +102,6 @@
             "name": "Murder.png"
         }
     ],
-    "updated_at": "2018-10-18 05:58:46",
+    "updated_at": "2018-10-18 05:59:15",
     "url": "https://github.com/fall2018-wallace/hw7_ist687_drsharma"
 }
