@@ -18,3 +18,5 @@ merged_data$longitude=statecenter$x
 #Converting the Upper case alphabets to lower cas in the stateName column of the data frame "merged_data"
 merged_data$stateName=tolower(merged_data$stateName)
 US=map_data("state")
+
+merged_data
